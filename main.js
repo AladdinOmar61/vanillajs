@@ -15,7 +15,10 @@ document.querySelector('#app').innerHTML = `
       <button id="add" class="btn btn-success mb-3">Add</button>
       <button id="mult" class="btn btn-danger mb-3">Multiply</button>
       <div class="mt-5 rounded border p-5 bg-secondary text-white">
-            Result: <div id="result">
+            Addition Result: <div id="add-result">
+      </div>
+      <div class="mt-5 bg-secondary text-white">
+            Multiplication Result: <div id="mult-result">
       </div>
 </div>
 `;
